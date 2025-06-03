@@ -3,7 +3,7 @@
 Monte Carlo engine for pricing exotic equity options with capped and floored returns. Features path-dependent payoff modelling, delta/gamma estimation, P&L simulation with and without hedging, and risk metrics including 99% VaR and Expected Shortfall in line with FRTB capital standards.
 
 <p align="center">
-  <img src="./cover_preview.png" alt="Cover Preview" width="600"/>
+  <img src="./cover_preview.png" alt="Cover Preview" width="450"/>
 </p>
 
 ---
@@ -14,5 +14,11 @@ This repository includes a complete Monte Carlo-based pricing and risk framework
 
 [`equity_cliquet_option_risk_analysis_cleaned.ipynb`](./equity_cliquet_option_risk_analysis_cleaned.ipynb) — full simulation notebook with pricing, sensitivity, and risk analytics
 
+## Tools Used
+
+- Python, NumPy, Matplotlib, Seaborn
+- Monte Carlo simulation
+- Black-Scholes-Merton modelling
+- Value at Risk (VaR), Expected Shortfall (ES)
 
 
